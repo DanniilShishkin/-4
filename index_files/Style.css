@@ -1,0 +1,45 @@
+.textInPhoto {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(182, 19, 133);
+    font-size: 25px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 15px;
+    align-items: center;
+    }
+.container img{
+    width: 555px;
+    height: 333px;
+}
+.text,header{
+    text-align: center;
+    font-size: 25px
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 25px;
+}
+.blockOfText{
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+}
+
+
+.footer {
+background-color: rgb(70, 68, 68);
+
+}
